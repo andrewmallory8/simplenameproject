@@ -58,6 +58,13 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Icon(
+                Icons.sports_soccer,
+                size: 96,
+                color: Theme.of(context).colorScheme.primary,
+                semanticLabel: 'Soccer ball',
+              ),
+              const SizedBox(height: 24),
               const FittedBox(
                 fit: BoxFit.scaleDown,
                 child: Text(
